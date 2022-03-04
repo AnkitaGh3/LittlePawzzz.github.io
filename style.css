@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: lucida sans;
+    color: #fff;
+}
+body{
+    background-color: #000;
+}
+header{
+    background-color: #2c2727;
+    height: 60px;
+}
+ul{
+    float: right;
+    padding: 15px;
+    margin-top: 8px;
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #b6b6e5;
+    padding: 10px 30px;
+    border: 1px solid #000;
+}
+ul li a:hover{
+    color: #2c2727;
+    background-color: #b6b6e5;
+    transition: ease 0.5s;
+}
+ul li.home a{
+    color: #2c2727;
+    background-color: #b6b6e5;
+}
+.title{
+    font-size: x-large;
+    color: #fff;
+    float: left;
+    letter-spacing: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+aside{
+    float: right;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+}   
+img{
+    padding: 20px;
+    width: 400px;
+}
+figcaption{
+    clear: both;
+    font-family: cursive;
+}
+img.cat:hover{
+    opacity: 0.8;
+}
+#para{
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    left: 660px;
+    font-size: large;
+    text-align: justify;
+}
+.parent{
+    border: 1px solid rgba(59, 57, 57, 0.678);
+    margin: 10px 870px 10px 10px;
+    float: left;
+    position: relative;
+}
+span{
+    letter-spacing: 4px;
+    padding: 50px;
+    color: rgb(73, 174, 207);
+}
+.sign{
+    width: 200px;
+}
+#icon{
+    display: flex;
+    position: absolute;
+    bottom: 1px;
+    position: fixed;
+    padding: 10px;
+}
+a i:hover{
+    color: rgb(73, 174, 207);
+    background-color: #000;
+    transition: ease 0.8s;
+}
+.social{
+    padding: 10px;
+    background-color: rgba(44, 39, 39,0.6);
+}
+.fa-instagram:hover{
+    color: rgb(226, 87, 87);
+}
